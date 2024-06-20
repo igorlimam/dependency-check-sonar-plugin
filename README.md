@@ -49,7 +49,7 @@ This is simply a measurement of the number of vulnerabilities to the vulnerable 
 
 ## Compiling
 
-> $ mvn clean package
+> $ mvn clean package -DskipTests
 
 ### Working with NodeJS
 
