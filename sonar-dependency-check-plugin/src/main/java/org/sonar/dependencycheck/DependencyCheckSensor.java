@@ -48,7 +48,7 @@ import edu.umd.cs.findbugs.annotations.Nullable;
 public class DependencyCheckSensor implements ProjectSensor {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DependencyCheckSensor.class);
-    private static final String SENSOR_NAME = "Dependency-Check";
+    private static final String SENSOR_NAME = "OSV-Scanner";
 
     private final FileSystem fileSystem;
     private final PathResolver pathResolver;

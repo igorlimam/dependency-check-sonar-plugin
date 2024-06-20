@@ -29,10 +29,10 @@ public class DependencyCheckReportPage implements PageDefinition {
     @Override
     public void define(Context context) {
         context.addPage(
-            Page.builder("dependencycheck/report_page")
+            Page.builder("osvscanner/report_page")
                 .setScope(Scope.COMPONENT)
                 .setComponentQualifiers(Page.Qualifier.PROJECT, Page.Qualifier.MODULE)
-                .setName("Dependency-Check")
+                .setName("OSV-Scanner")
                 .setAdmin(false).build());
     }
 }

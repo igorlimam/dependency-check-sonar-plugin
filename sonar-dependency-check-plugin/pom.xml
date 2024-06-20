@@ -23,8 +23,8 @@
         <sonar.api.impl.version>10.3.0.82913</sonar.api.impl.version>
         <!-- Configuration for sonar-packaging-maven-plugin -->
         <sonar.pluginClass>org.sonar.dependencycheck.DependencyCheckPlugin</sonar.pluginClass>
-        <sonar.pluginName>Dependency-Check</sonar.pluginName>
-        <sonar.pluginKey>dependencycheck</sonar.pluginKey>
+        <sonar.pluginName>OSV-Scanner</sonar.pluginName>
+        <sonar.pluginKey>osvscanner</sonar.pluginKey>
         <jackson.version>2.17.0</jackson.version>
         <spotbugs.version>4.8.4</spotbugs.version>
         <commons.lang3.version>3.14.0</commons.lang3.version>
