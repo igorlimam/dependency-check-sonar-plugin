@@ -45,7 +45,7 @@ COPY ExampleApp2 ./ExampleApp2
 RUN /usr/bin/dependency-check.sh -f JSON -f HTML -s . -o .
 RUN dotnet sonarscanner begin /k:exampleCSproj \
     /d:sonar.host.url=${sonarHost} /d:sonar.login=${sonarLogin} /d:sonar.password=${sonarPassword} \
-    /d:sonar.dependencyCheck.jsonReportPath="/app/dependency-check-report.json" \
-    /d:sonar.dependencyCheck.htmlReportPath="/app/dependency-check-report.html" && \
+    /d:sonar.dependencyCheck.jsonReportPath="/app/osv-report/report.json" \
+    /d:sonar.dependencyCheck.htmlReportPath="/app/osv-report/report.html" && \
     dotnet build && \
     dotnet sonarscanner end /d:sonar.login=${sonarLogin} /d:sonar.password=${sonarPassword}

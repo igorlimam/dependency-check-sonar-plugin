@@ -88,8 +88,8 @@ Create aggregate reports with Dependency-Check. Dependency-Check will output a f
 A typical SonarQube configuration will have the following parameter. This example assumes the use of a Jenkins workspace, but can easily be altered for other CI/CD systems.
 
 ```ini
-sonar.dependencyCheck.jsonReportPath=${WORKSPACE}/dependency-check-report.json
-sonar.dependencyCheck.htmlReportPath=${WORKSPACE}/dependency-check-report.html
+sonar.dependencyCheck.jsonReportPath=${WORKSPACE}/osv-report/report.json
+sonar.dependencyCheck.htmlReportPath=${WORKSPACE}/osv-report/report.html
 ```
 
 In this example, all supported reports (JSON and HTML) are specified. Only the JSON report is required, however, if the HTML report is also available, it greatly enhances the usability of the SonarQube plugin by incorporating the actual Dependency-Check HTML report in the SonarQube project.

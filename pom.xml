@@ -10,8 +10,8 @@
     <artifactId>sonar-dependency-check</artifactId>
     <version>5.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Dependency-Check for SonarQube</name>
-    <description>Integrates Dependency-Check reports into SonarQube</description>
+    <name>OSV-Scanner for SonarQube</name>
+    <description>Integrates OSV-Scanner reports into SonarQube</description>
     <inceptionYear>2015</inceptionYear>
 
     <properties>

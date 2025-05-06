@@ -40,8 +40,8 @@ public final class DependencyCheckConstants {
     public static final Float CVSS_MEDIUM_SCORE = 4.0f;
     public static final Float CVSS_LOW_SCORE = 0.1f;
 
-    public static final String JSON_REPORT_PATH_DEFAULT = "${WORKSPACE}/dependency-check-report.json";
-    public static final String HTML_REPORT_PATH_DEFAULT = "${WORKSPACE}/dependency-check-report.html";
+    public static final String JSON_REPORT_PATH_DEFAULT = "${WORKSPACE}/osv-report/report.json";
+    public static final String HTML_REPORT_PATH_DEFAULT = "${WORKSPACE}/osv-report/report.html";
     public static final Boolean SUMMARIZE_PROPERTY_DEFAULT = Boolean.FALSE;
     public static final Boolean SKIP_PROPERTY_DEFAULT = Boolean.FALSE;
     public static final Boolean SECURITY_HOTSPOT_DEFAULT = Boolean.FALSE;
